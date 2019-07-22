@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var thanhpho = "Cần Thơ";
+
+var SinhVien = {
+    name:"Nguyễn Thành Nhân",
+    year:1993,
+    city:thanhpho,
+    intro:function(){
+        document.write("- Tôi tên: " + this.name + "<br>"); 
+        document.write("- Sinh năm: " + this.year + "<br>"); 
+        document.write("- Sống tại: " + this.city);
+    }
+}
+
+document.write(SinhVien.name + "<hr>");
+
+document.write(SinhVien.year + "<hr>");
+
+document.write(SinhVien.city + "<hr>");
+
+SinhVien.intro();
+    </script>
+</body>
+</html>
